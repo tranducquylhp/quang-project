@@ -9,18 +9,20 @@ import { HomeComponent } from './home/home.component';
 import {SlideshowModule} from 'ng-simple-slideshow';
 
 import {HomeModule} from './layout/home/home.module';
+import {SanPhamModule} from './san-pham/san-pham.module';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     SlideshowModule,
-    HomeModule
+    HomeModule,
+    SanPhamModule
   ],
   providers: [],
   bootstrap: [AppComponent]

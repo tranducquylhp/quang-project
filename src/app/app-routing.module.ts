@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {HomeComponent} from './home/home.component';
 import {HomeLayoutComponent} from './layout/home/home-layout/home-layout.component';
+import {SanPhamComponent} from './san-pham/san-pham/san-pham.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,11 @@ const routes: Routes = [
     path: '',
     component: HomeLayoutComponent,
     children: [{ path: '', loadChildren: () => import('./layout/home/home.module').then(m => m.HomeModule) }],
+  },
+  {
+    path: '',
+    component: SanPhamComponent,
+    children: [{ path: '', loadChildren: () => import('./san-pham/san-pham.module').then(m => m.SanPhamModule) }],
   }
 ];
 
