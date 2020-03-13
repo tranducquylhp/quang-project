@@ -8,6 +8,7 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import {SlideshowModule} from 'ng-simple-slideshow';
 
+import {HomeModule} from './layout/home/home.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import {SlideshowModule} from 'ng-simple-slideshow';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlideshowModule
+    SlideshowModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
