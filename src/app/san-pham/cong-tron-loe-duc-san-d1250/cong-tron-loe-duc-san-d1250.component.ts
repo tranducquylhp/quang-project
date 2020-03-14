@@ -10,6 +10,7 @@ export class CongTronLoeDucSanD1250Component implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    window.scrollTo(0,0);
   }
 
 }

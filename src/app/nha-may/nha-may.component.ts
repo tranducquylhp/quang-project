@@ -11,6 +11,7 @@ export class NhaMayComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
+    window.scrollTo(0,0);
   }
 
   nhaMaySanXuatVLXDSongDay1() {

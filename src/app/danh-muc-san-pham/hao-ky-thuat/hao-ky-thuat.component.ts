@@ -11,6 +11,7 @@ export class HaoKyThuatComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
+    window.scrollTo(0,0);
   }
 
   baoGiaHaoKyThuat() {

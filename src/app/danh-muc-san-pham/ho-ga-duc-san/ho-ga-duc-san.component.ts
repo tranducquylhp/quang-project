@@ -11,6 +11,7 @@ export class HoGaDucSanComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
+    window.scrollTo(0,0);
   }
 
   baoGiaHoGa() {

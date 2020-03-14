@@ -16,6 +16,22 @@ import { PhongThiNghiemLasXd1432Component } from './phong-thi-nghiem-las-xd1432/
 import { NhaMaySanXuatCongKichNgamNittaSongDayComponent } from './nha-may-san-xuat-cong-kich-ngam-nitta-song-day/nha-may-san-xuat-cong-kich-ngam-nitta-song-day.component';
 import { NhaMaySanXuatVlxdSongDay2Component } from './nha-may-san-xuat-vlxd-song-day2/nha-may-san-xuat-vlxd-song-day2.component';
 import { NhaMaySanXuatVlxdSongDay1Component } from './nha-may-san-xuat-vlxd-song-day1/nha-may-san-xuat-vlxd-song-day1.component';
+import { TinTucComponent } from './tin-tuc/tin-tuc.component';
+import { TieuChuanQuocGiaOngCongBeTongCotThepThoatNuocComponent } from './tieu-chuan-quoc-gia-ong-cong-be-tong-cot-thep-thoat-nuoc/tieu-chuan-quoc-gia-ong-cong-be-tong-cot-thep-thoat-nuoc.component';
+import { ThiCongCongHopDucSanComponent } from './thi-cong-cong-hop-duc-san/thi-cong-cong-hop-duc-san.component';
+import { TuoiThoCuaBeTongCotThepComponent } from './tuoi-tho-cua-be-tong-cot-thep/tuoi-tho-cua-be-tong-cot-thep.component';
+import { BeTongCotThepLaGiComponent } from './be-tong-cot-thep-la-gi/be-tong-cot-thep-la-gi.component';
+import { CongTronCongHopQuangNinhComponent } from './cong-tron-cong-hop-quang-ninh/cong-tron-cong-hop-quang-ninh.component';
+import { BanVeThietKeOngCongComponent } from './ban-ve-thiet-ke-ong-cong/ban-ve-thiet-ke-ong-cong.component';
+import { HuongDanThiCongCongTronDucSanComponent } from './huong-dan-thi-cong-cong-tron-duc-san/huong-dan-thi-cong-cong-tron-duc-san.component';
+import { YeuCauVeHinhThucBenNgoaiCuaCongHopDucSanComponent } from './yeu-cau-ve-hinh-thuc-ben-ngoai-cua-cong-hop-duc-san/yeu-cau-ve-hinh-thuc-ben-ngoai-cua-cong-hop-duc-san.component';
+import { TieuChuanVatLieuSanXuatCongHopDucSanComponent } from './tieu-chuan-vat-lieu-san-xuat-cong-hop-duc-san/tieu-chuan-vat-lieu-san-xuat-cong-hop-duc-san.component';
+import { BanVeThietKeCongHopDucSanComponent } from './ban-ve-thiet-ke-cong-hop-duc-san/ban-ve-thiet-ke-cong-hop-duc-san.component';
+import { CongBeTongDucSanComponent } from './cong-be-tong-duc-san/cong-be-tong-duc-san.component';
+import { HoiThiNauAnCongBeTongComponent } from './hoi-thi-nau-an-cong-be-tong/hoi-thi-nau-an-cong-be-tong.component';
+import { LeCongBoLienDanhNittaSongDayComponent } from './le-cong-bo-lien-danh-nitta-song-day/le-cong-bo-lien-danh-nitta-song-day.component';
+import {DichVuModule} from './dich-vu/dich-vu.module';
+import { LienHeComponent } from './lien-he/lien-he.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +43,21 @@ import { NhaMaySanXuatVlxdSongDay1Component } from './nha-may-san-xuat-vlxd-song
     NhaMaySanXuatCongKichNgamNittaSongDayComponent,
     NhaMaySanXuatVlxdSongDay2Component,
     NhaMaySanXuatVlxdSongDay1Component,
+    TinTucComponent,
+    TieuChuanQuocGiaOngCongBeTongCotThepThoatNuocComponent,
+    ThiCongCongHopDucSanComponent,
+    TuoiThoCuaBeTongCotThepComponent,
+    BeTongCotThepLaGiComponent,
+    CongTronCongHopQuangNinhComponent,
+    BanVeThietKeOngCongComponent,
+    HuongDanThiCongCongTronDucSanComponent,
+    YeuCauVeHinhThucBenNgoaiCuaCongHopDucSanComponent,
+    TieuChuanVatLieuSanXuatCongHopDucSanComponent,
+    BanVeThietKeCongHopDucSanComponent,
+    CongBeTongDucSanComponent,
+    HoiThiNauAnCongBeTongComponent,
+    LeCongBoLienDanhNittaSongDayComponent,
+    LienHeComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +65,8 @@ import { NhaMaySanXuatVlxdSongDay1Component } from './nha-may-san-xuat-vlxd-song
     SlideshowModule,
     HomeModule,
     SanPhamModule,
-    DanhMucSanPhamModule
+    DanhMucSanPhamModule,
+    DichVuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,6 +9,20 @@ import {NhaMaySanXuatCongKichNgamNittaSongDayComponent} from './nha-may-san-xuat
 import {NhaMaySanXuatVlxdSongDay1Component} from './nha-may-san-xuat-vlxd-song-day1/nha-may-san-xuat-vlxd-song-day1.component';
 import {NhaMaySanXuatVlxdSongDay2Component} from './nha-may-san-xuat-vlxd-song-day2/nha-may-san-xuat-vlxd-song-day2.component';
 import {PhongThiNghiemLasXd1432Component} from './phong-thi-nghiem-las-xd1432/phong-thi-nghiem-las-xd1432.component';
+import {TinTucComponent} from './tin-tuc/tin-tuc.component';
+import {TieuChuanQuocGiaOngCongBeTongCotThepThoatNuocComponent} from './tieu-chuan-quoc-gia-ong-cong-be-tong-cot-thep-thoat-nuoc/tieu-chuan-quoc-gia-ong-cong-be-tong-cot-thep-thoat-nuoc.component';
+import {ThiCongCongHopDucSanComponent} from './thi-cong-cong-hop-duc-san/thi-cong-cong-hop-duc-san.component';
+import {TuoiThoCuaBeTongCotThepComponent} from './tuoi-tho-cua-be-tong-cot-thep/tuoi-tho-cua-be-tong-cot-thep.component';
+import {BeTongCotThepLaGiComponent} from './be-tong-cot-thep-la-gi/be-tong-cot-thep-la-gi.component';
+import {CongTronCongHopQuangNinhComponent} from './cong-tron-cong-hop-quang-ninh/cong-tron-cong-hop-quang-ninh.component';
+import {BanVeThietKeOngCongComponent} from './ban-ve-thiet-ke-ong-cong/ban-ve-thiet-ke-ong-cong.component';
+import {HuongDanThiCongCongTronDucSanComponent} from './huong-dan-thi-cong-cong-tron-duc-san/huong-dan-thi-cong-cong-tron-duc-san.component';
+import {YeuCauVeHinhThucBenNgoaiCuaCongHopDucSanComponent} from './yeu-cau-ve-hinh-thuc-ben-ngoai-cua-cong-hop-duc-san/yeu-cau-ve-hinh-thuc-ben-ngoai-cua-cong-hop-duc-san.component';
+import {CongBeTongDucSanComponent} from './cong-be-tong-duc-san/cong-be-tong-duc-san.component';
+import {HoiThiNauAnCongBeTongComponent} from './hoi-thi-nau-an-cong-be-tong/hoi-thi-nau-an-cong-be-tong.component';
+import {LeCongBoLienDanhNittaSongDayComponent} from './le-cong-bo-lien-danh-nitta-song-day/le-cong-bo-lien-danh-nitta-song-day.component';
+import {DichVuComponent} from './dich-vu/dich-vu/dich-vu.component';
+import {LienHeComponent} from './lien-he/lien-he.component';
 
 
 const routes: Routes = [
@@ -32,6 +46,11 @@ const routes: Routes = [
     children: [{ path: '', loadChildren: () => import('./danh-muc-san-pham/danh-muc-san-pham.module').then(m => m.DanhMucSanPhamModule) }],
   },
   {
+    path: '',
+    component: DichVuComponent,
+    children: [{ path: '', loadChildren: () => import('./dich-vu/dich-vu.module').then(m => m.DichVuModule) }],
+  },
+  {
     path: 'nha-may-san-xuat-cong-kich-ngam-nitta-song-day',
     component: NhaMaySanXuatCongKichNgamNittaSongDayComponent
   },
@@ -50,6 +69,66 @@ const routes: Routes = [
   {
     path: 'nha-may',
     component: NhaMayComponent
+  },
+  {
+    path: 'tin-tuc',
+    component: TinTucComponent
+  },
+  {
+    path: 'tieu-chuan-quoc-gia-ong-be-tong-cot-thep-thoat-nuoc',
+    component: TieuChuanQuocGiaOngCongBeTongCotThepThoatNuocComponent
+  },
+  {
+    path: 'thi-cong-cong-hop-duc-san',
+    component: ThiCongCongHopDucSanComponent
+  },
+  {
+    path: 'tuoi-tho-cua-be-tong-cot-thep',
+    component: TuoiThoCuaBeTongCotThepComponent
+  },
+  {
+    path: 'be-tong-cot-thep-la-gi',
+    component: BeTongCotThepLaGiComponent
+  },
+  {
+    path: 'cong-tron-cong-hop-quang-ninh',
+    component: CongTronCongHopQuangNinhComponent
+  },
+  {
+    path: 'ban-ve-thiet-ke-ong-cong',
+    component: BanVeThietKeOngCongComponent
+  },
+  {
+    path: 'huong-dan-thi-cong-cong-tron-duc-san',
+    component: HuongDanThiCongCongTronDucSanComponent
+  },
+  {
+    path: 'yeu-cau-ve-hinh-thuc-ben-ngoai-cua-cong-hop-duc-san',
+    component: YeuCauVeHinhThucBenNgoaiCuaCongHopDucSanComponent
+  },
+  {
+    path: 'tieu-chuan-vat-lieu-san-xuat-cong-hop-duc-san',
+    component: TieuChuanQuocGiaOngCongBeTongCotThepThoatNuocComponent
+  },
+  {
+    path: 'ban-ve-thiet-ke-cong-hop-duc-san',
+    component: BanVeThietKeOngCongComponent
+  },
+  {
+    path: 'cong-be-tong-duc-san',
+    component: CongBeTongDucSanComponent
+  },
+  {
+    path: 'hoi-thi-nau-an-cong-be-tong',
+    component: HoiThiNauAnCongBeTongComponent
+  },
+  {
+    path: 'le-cong-bo-lien-danh-nitta-song-day',
+    component: LeCongBoLienDanhNittaSongDayComponent
+  },
+  {
+    path: 'lien-he',
+    component: LienHeComponent
   }
 ];
 

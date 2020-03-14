@@ -10,6 +10,7 @@ export class CongHopBeTongDucSanH2000x2000Component implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    window.scrollTo(0,0);
   }
 
 }
