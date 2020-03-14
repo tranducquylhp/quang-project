@@ -10,6 +10,7 @@ import {SlideshowModule} from 'ng-simple-slideshow';
 
 import {HomeModule} from './layout/home/home.module';
 import {SanPhamModule} from './san-pham/san-pham.module';
+import {DanhMucSanPhamModule} from './danh-muc-san-pham/danh-muc-san-pham.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import {SanPhamModule} from './san-pham/san-pham.module';
     AppRoutingModule,
     SlideshowModule,
     HomeModule,
-    SanPhamModule
+    SanPhamModule,
+    DanhMucSanPhamModule
   ],
   providers: [],
   bootstrap: [AppComponent]
