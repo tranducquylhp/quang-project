@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-hao-ky-thuat',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HaoKyThuatComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  baoGiaHaoKyThuat() {
+    this.router.navigate(['bao-gia-hao-ky-thuat']);
+  }
+
+  haoKyThuatDucSan() {
+    this.router.navigate(['hao-ky-thuat-duc-san']);
+  }
 }

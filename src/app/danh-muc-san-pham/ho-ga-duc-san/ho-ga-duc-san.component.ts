@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-ho-ga-duc-san',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HoGaDucSanComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  baoGiaHoGa() {
+    this.router.navigate(['bao-gia-ho-ga']);
+  }
 }
