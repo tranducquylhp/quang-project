@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-cong-hop-be-tong-duc-san',
@@ -7,10 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CongHopBeTongDucSanComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     window.scrollTo(0,0);
   }
 
+  congHopBeTongDucSan() {
+    this.router.navigate(['cong-hop-be-tong-duc-san']);
+  }
 }

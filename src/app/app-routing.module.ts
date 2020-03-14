@@ -23,6 +23,7 @@ import {HoiThiNauAnCongBeTongComponent} from './hoi-thi-nau-an-cong-be-tong/hoi-
 import {LeCongBoLienDanhNittaSongDayComponent} from './le-cong-bo-lien-danh-nitta-song-day/le-cong-bo-lien-danh-nitta-song-day.component';
 import {DichVuComponent} from './dich-vu/dich-vu/dich-vu.component';
 import {LienHeComponent} from './lien-he/lien-he.component';
+import {BanVeThietKeCongHopDucSanComponent} from './ban-ve-thiet-ke-cong-hop-duc-san/ban-ve-thiet-ke-cong-hop-duc-san.component';
 
 
 const routes: Routes = [
@@ -112,7 +113,7 @@ const routes: Routes = [
   },
   {
     path: 'ban-ve-thiet-ke-cong-hop-duc-san',
-    component: BanVeThietKeOngCongComponent
+    component: BanVeThietKeCongHopDucSanComponent
   },
   {
     path: 'cong-be-tong-duc-san',
