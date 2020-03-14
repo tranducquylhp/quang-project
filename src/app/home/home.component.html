@@ -30,21 +30,21 @@
     <h2><b>SẢN PHẨM NỔI BẬT</b></h2>
   </div>
   <div class="row">
-    <div class="col-md-3" style="position: relative">
+    <div class="col-md-3" style="position: relative" routerLink="bao-gia-cong-tron">
       <img src="../../assets/images_Quang/Ống-cống-tròn-bê-tông-cốt-thép-đúc-sẵn-mẫu-5-300x300.jpg"
            style="position:relative; width: 100%">
       <h3
         style="position: relative; text-align: center; bottom: 0px; background-color: red; width: 100%; font-size: 2.0rem; color: white">
         Cống tròn</h3>
     </div>
-    <div class="col-md-3" style="position: relative">
+    <div class="col-md-3" style="position: relative" routerLink="bao-gia-cong-hop">
       <img src="../../assets/images_Quang/cống-hộp-bê-tông-cốt-thép-đúc-sẵn-mẫu-3-1-300x300.jpg"
            style="position:relative; width: 100%">
       <h3
         style="position: relative; text-align: center; bottom: 0px; background-color: red; width: 100%; font-size: 2.0rem; color: white">
         Cống hộp</h3>
     </div>
-    <div class="col-md-3" style="position: relative">
+    <div class="col-md-3" style="position: relative" routerLink="bao-gia-hao-ky-thuat">
       <img
         src="../../assets/images_Quang/Hão-kỹ-thuật-bê-tông-cốt-thép-đúc-sẵn-mẫu-1-o8orhl3dvl8hy3jdw18wwhhmfzmrvnhwpx3xx785c0.jpg"
         style="position:relative; width: 100%">
@@ -52,7 +52,7 @@
         style="position: relative; text-align: center; bottom: 0px; background-color: red; width: 100%; font-size: 2.0rem; color: white">
         Hào kỹ thuật</h3>
     </div>
-    <div class="col-md-3" style="position: relative">
+    <div class="col-md-3" style="position: relative" routerLink="bao-gia-ho-ga">
       <img src="../../assets/images_Quang/Hố-ga-bê-tông-cốt-thép-đúc-sẵn-mẫu-2-300x300.jpg"
            style="position:relative; width: 100%">
       <h3
@@ -87,8 +87,8 @@
                             <div class="elementor-widget-container">
                               <div class="elementor-image">
                                 <figure class="wp-caption">
-                                  <a routerLink="" (click)="congKichNgam()"
-                                     data-elementor-open-lightbox="" target="_blank">
+                                  <a routerLink="" (click)="congBeTongDucSan()"
+                                     data-elementor-open-lightbox="">
                                     <img width="626" height="886"
                                          src="https://caukienbetongmienbac.com/wp-content/uploads/2019/06/12-năm-thành-lập-công-ty-ống-cống-bê-tông-cốt-thép-đúc-sẵn-Sông-Đáy.jpg"
                                          class="attachment-full size-full"
@@ -132,7 +132,7 @@
                             <div class="elementor-widget-container">
                               <div class="elementor-image">
                                 <figure class="wp-caption">
-                                  <a routerLink="" (click)="congHopDon()"
+                                  <a routerLink="cong-hop-don"
                                      data-elementor-open-lightbox="">
                                     <img width="900" height="602"
                                          src="https://caukienbetongmienbac.com/wp-content/uploads/2019/06/cống-hộp-bê-tông-cốt-thép-đúc-sẵn-mẫu-5.png"
@@ -192,7 +192,7 @@
   </div>
   <div class="row">
     <div class="col-md-3">
-      <div class="card" style="height: 410px">
+      <div class="card" style="height: 410px" routerLink="phong-thi-nghiem-las-xd-1432">
         <img src="../../assets/images_Quang/cong-2-600x800.jpg" class="card-img-top" style="height: 200px">
         <div class="card-body">
           <h5 class="card-title">Phòng thí nghiệm Las-XD 1432</h5>
@@ -202,7 +202,7 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="card" style="height: 410px">
+      <div class="card" style="height: 410px" routerLink="nha-may-san-xuat-cong-kich-ngam-nitta-song-day">
         <img src="../../assets/images_Quang/cong-hop-doi-3-600x400.jpg" class="card-img-top" style="height: 200px">
         <div class="card-body">
           <h5 class="card-title">Nhà máy sản xuất cống kích ngầm Nitta-Sông Đáy</h5>
@@ -213,7 +213,7 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="card" style="height: 410px">
+      <div class="card" style="height: 410px" routerLink="nha-may-san-xuat-vlxd-song-day-2">
         <img src="../../assets/images_Quang/tron-600x400.jpg" class="card-img-top" style="height: 200px">
         <div class="card-body">
           <h5 class="card-title">Nhà máy sản xuất VLXD Sông Đáy 2</h5>
@@ -224,7 +224,7 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="card" style="height: 410px">
+      <div class="card" style="height: 410px" routerLink="nha-may-san-xuat-vlxd-song-day-1">
         <img src="../../assets/images_Quang/cong-hop-3-600x400.jpg" class="card-img-top" style="height: 200px">
         <div class="card-body">
           <h5 class="card-title">Nhà máy sản xuất VLXD Sông Đáy 1</h5>
@@ -364,16 +364,16 @@
   </div>
   <div class="row">
     <div class="col-md-3">
-      <img src="../../assets/images_Quang/Chứng-nhận-hệ-thống-quản-lý-chât-lượng-216x300.jpg" style="height: 300px">
+      <img src="../../assets/images_Quang/Chứng-nhận-hệ-thống-quản-lý-chât-lượng-216x300.jpg" style="height: 300px" routerLink="chung-chi-chat-luong">
     </div>
     <div class="col-md-3">
-      <img src="../../assets/images_Quang/Tiêu-chuẩn-cống-hộp-đơn-bê-tông-cốt-thép-209x300.jpg" style="height: 300px">
+      <img src="../../assets/images_Quang/Tiêu-chuẩn-cống-hộp-đơn-bê-tông-cốt-thép-209x300.jpg" style="height: 300px" routerLink="chung-chi-chat-luong">
     </div>
     <div class="col-md-3">
-      <img src="../../assets/images_Quang/Tiêu-chuẩn-cống-hộp-đôi-bê-tông-cốt-thép-215x300.jpg" style="height: 300px">
+      <img src="../../assets/images_Quang/Tiêu-chuẩn-cống-hộp-đôi-bê-tông-cốt-thép-215x300.jpg" style="height: 300px" routerLink="chung-chi-chat-luong">
     </div>
     <div class="col-md-3">
-      <img src="../../assets/images_Quang/Tiêu-chuẩn-ống-cống-tròn-bê-tông-cốt-thép-đúc-sẵn-202x300.jpg" style="height: 300px">
+      <img src="../../assets/images_Quang/Tiêu-chuẩn-ống-cống-tròn-bê-tông-cốt-thép-đúc-sẵn-202x300.jpg" style="height: 300px" routerLink="chung-chi-chat-luong">
     </div>
   </div>
 </div>

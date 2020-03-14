@@ -14,8 +14,8 @@ export class HomeComponent implements OnInit {
     window.scrollTo(0,0);
   }
 
-  congKichNgam(){
-    this.router.navigate(['cong-kich-ngam']);
+  congBeTongDucSan(){
+    this.router.navigate(['cong-be-tong-duc-san']);
   }
 
   congTron() {
