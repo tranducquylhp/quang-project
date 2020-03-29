@@ -29,7 +29,6 @@ import { TieuChuanVatLieuSanXuatCongHopDucSanComponent } from './tieu-chuan-vat-
 import { BanVeThietKeCongHopDucSanComponent } from './ban-ve-thiet-ke-cong-hop-duc-san/ban-ve-thiet-ke-cong-hop-duc-san.component';
 import { CongBeTongDucSanComponent } from './cong-be-tong-duc-san/cong-be-tong-duc-san.component';
 import { HoiThiNauAnCongBeTongComponent } from './hoi-thi-nau-an-cong-be-tong/hoi-thi-nau-an-cong-be-tong.component';
-import { LeCongBoLienDanhNittaSongDayComponent } from './le-cong-bo-lien-danh-nitta-song-day/le-cong-bo-lien-danh-nitta-song-day.component';
 import {DichVuModule} from './dich-vu/dich-vu.module';
 import { LienHeComponent } from './lien-he/lien-he.component';
 @NgModule({
@@ -56,7 +55,6 @@ import { LienHeComponent } from './lien-he/lien-he.component';
     BanVeThietKeCongHopDucSanComponent,
     CongBeTongDucSanComponent,
     HoiThiNauAnCongBeTongComponent,
-    LeCongBoLienDanhNittaSongDayComponent,
     LienHeComponent,
   ],
   imports: [

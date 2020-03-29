@@ -61,8 +61,4 @@ export class TinTucComponent implements OnInit {
   hoiThiNauAnCongBeTong(){
     this.router.navigate(['hoi-thi-nau-an-cong-be-tong']);
   }
-
-  leCongBoLienDanhNittaSongDay(){
-    this.router.navigate(['le-cong-bo-lien-danh-nitta-song-day']);
-  }
 }

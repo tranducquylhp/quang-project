@@ -20,7 +20,6 @@ import {HuongDanThiCongCongTronDucSanComponent} from './huong-dan-thi-cong-cong-
 import {YeuCauVeHinhThucBenNgoaiCuaCongHopDucSanComponent} from './yeu-cau-ve-hinh-thuc-ben-ngoai-cua-cong-hop-duc-san/yeu-cau-ve-hinh-thuc-ben-ngoai-cua-cong-hop-duc-san.component';
 import {CongBeTongDucSanComponent} from './cong-be-tong-duc-san/cong-be-tong-duc-san.component';
 import {HoiThiNauAnCongBeTongComponent} from './hoi-thi-nau-an-cong-be-tong/hoi-thi-nau-an-cong-be-tong.component';
-import {LeCongBoLienDanhNittaSongDayComponent} from './le-cong-bo-lien-danh-nitta-song-day/le-cong-bo-lien-danh-nitta-song-day.component';
 import {DichVuComponent} from './dich-vu/dich-vu/dich-vu.component';
 import {LienHeComponent} from './lien-he/lien-he.component';
 import {BanVeThietKeCongHopDucSanComponent} from './ban-ve-thiet-ke-cong-hop-duc-san/ban-ve-thiet-ke-cong-hop-duc-san.component';
@@ -122,10 +121,6 @@ const routes: Routes = [
   {
     path: 'hoi-thi-nau-an-cong-be-tong',
     component: HoiThiNauAnCongBeTongComponent
-  },
-  {
-    path: 'le-cong-bo-lien-danh-nitta-song-day',
-    component: LeCongBoLienDanhNittaSongDayComponent
   },
   {
     path: 'lien-he',
