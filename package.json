@@ -22,7 +22,7 @@
     "bootstrap": "^4.4.1",
     "mailgun.js": "^2.0.1",
     "ng-simple-slideshow": "^1.2.9",
-    "nodemailer": "^6.4.5",
+    "nodemailer": "^6.4.16",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
